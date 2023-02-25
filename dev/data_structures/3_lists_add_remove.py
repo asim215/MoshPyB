@@ -1,4 +1,5 @@
 letters = ["a", "b", "c"]
+print("initial", letters)
 
 # Add
 letters.append("d")

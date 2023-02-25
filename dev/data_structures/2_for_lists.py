@@ -7,7 +7,7 @@ for letter in letters:
 # Enumerate with index. Get tuple
 for letter in enumerate(letters):
     print(letter)
-    print(f"{letter[0]} <> {letter[1]}")
+    print(f"{letter[0]} --- {letter[1]}")
 
 # Tuple unpacking
 for index, letter in enumerate(letters):

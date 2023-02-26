@@ -5,6 +5,7 @@ print(numbers)
 numbers.sort(reverse=True)
 print(numbers)
 
+# Creates new instance
 s = sorted(numbers)
 print(s)
 
@@ -30,4 +31,9 @@ def sort_item(item):
 
 
 items.sort(key=sort_item)
-print(items)
+print(f"func on obj {id(items)} ", items)
+
+# Usage of lambda
+
+items.sort(key=lambda item: item[1])
+print(f"lambda on object {id(items)}", items)

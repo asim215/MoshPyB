@@ -10,4 +10,7 @@ for x in values_g:
     print(x)
 
 # size of obj
-print(f"Size of list {getsizeof(values_l)}, of generator object {getsizeof(values_g)}")
+print(
+    f"Size of {type(values_l)} list {getsizeof(values_l)}, \
+    of {type(values_g)} generator object {getsizeof(values_g)}"
+)
